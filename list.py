@@ -117,20 +117,20 @@ print(a[0:11:3])  # 0 = starting index , 11 = go up to index 11 but not include 
 
 # Palindrome using Stack
 
-stack = []
-num = input("enter the number to check :")
+# stack = []
+# num = input("enter the number to check :")
 
-for digit in num :
-    stack.append(digit)
-print(stack)
+# for digit in num :
+#     stack.append(digit)
+# print(stack)
 
-reverse= ""
+# reverse= ""
 
-while stack :
-    reverse = reverse + stack.pop()
-print(reverse)
+# while stack :
+#     reverse = reverse + stack.pop()
+# print(reverse)
 
-if(stack == reverse):
-    print("the number is pallindrome")
-else:
-    print("number is not palindrome")
+# if(stack == reverse):
+#     print("the number is pallindrome")
+# else:
+#     print("number is not palindrome")

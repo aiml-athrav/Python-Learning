@@ -199,9 +199,33 @@
 
 # print the table of any number
 
-n= int(input("enter the number :"))
+# n= int(input("enter the number :"))
 
-i=1
-while i<=10:
-    print(f"{n} x {i} =",n*i)
-    i+=1
+# i=1
+# while i<=10:
+#     print(f"{n} x {i} =",n*i)
+#     i+=1
+
+# i = 0
+# while i < 5 :
+#     print (i)
+#     i += 1
+
+# n = int(input("enter the number :"))
+# number =[]
+# for i in range(1,n+1):
+#     number.append(i)
+# print(number)
+# number = number[::-1]
+# print(number)
+
+num  = input("enter the number :")
+number =[]
+for i in num:
+    number.append(i)
+reverse = number
+reverse = reverse[::-1]
+if (reverse == number ):
+    print ("no. palindrome")
+else:
+    print("not palindrome")

@@ -58,3 +58,6 @@
 
 
 
+A = "ATHRAV"
+for i in A :
+    print(A[1])
